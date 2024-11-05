@@ -1,0 +1,100 @@
+/* unversial settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body background image*/
+body {
+    background-image: url(./images/coffee-beans-bg.jpg);
+}
+
+/* menu main body styling */
+main {
+    width: 60%;
+    min-width: 400px;
+    max-width: 700px;
+    height: 100%;
+    min-height: 300px;
+    max-height: 600px;
+    background-color: #DEB887;
+    margin: 20px auto;
+    padding: 15px;
+    border: 3px solid brown;
+}
+
+/* hr styling settings */
+
+hr {
+    height: 7px;
+    background-color: #AB3833;
+    border-radius: 25px;
+    margin: 10px auto;
+}
+
+/* adjusting the menu title styling  */
+
+.menu-title h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.menu-title p {
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+/* adjusting the coffee/desserts titles styling */
+.menu-sections h2 {
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* adjusting different sections representing images/icons */
+.section-images {
+    height: 30px;
+    width: 100%;
+}
+
+/* adjusitng the menu items styling */
+.menu-items {
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    width: 90%;
+    display: inline-block;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-color: #AB3833; */
+}
+
+/* adjusting the menu items prices */
+.menu-items-price {
+    display: inline-block;
+    text-align: right;
+    /* background-color: #AB3833; */
+}
+
+/* adjusting footer style */
+
+footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer a {
+    color: #665843;
+}
+
+footer a:hover {
+    background-color: #AB3833;
+}
